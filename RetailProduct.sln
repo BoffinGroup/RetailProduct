@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockManagement", "StockManagement\StockManagement.csproj", "{F57DF96A-238A-407F-8643-0A936433E78A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleSignServer", "SingleSignServer\SingleSignServer.csproj", "{53A953A9-BEF8-45EC-88C5-B528DA5D9F75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{333150F9-DF2F-41AA-B72B-C8B99121549A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "LoggerService\LoggerService.csproj", "{00F87DC6-C93D-46B8-B40D-A78FB5AF87AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{A952E8EF-3DEC-4D1A-AF2D-EBACA2870195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{59957821-6DB4-4669-B885-E51829A39BA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{188CA268-E093-443A-95B2-AB1EBBBC6CAA}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F57DF96A-238A-407F-8643-0A936433E78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57DF96A-238A-407F-8643-0A936433E78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57DF96A-238A-407F-8643-0A936433E78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57DF96A-238A-407F-8643-0A936433E78A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53A953A9-BEF8-45EC-88C5-B528DA5D9F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A953A9-BEF8-45EC-88C5-B528DA5D9F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A953A9-BEF8-45EC-88C5-B528DA5D9F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A953A9-BEF8-45EC-88C5-B528DA5D9F75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{333150F9-DF2F-41AA-B72B-C8B99121549A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{333150F9-DF2F-41AA-B72B-C8B99121549A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{333150F9-DF2F-41AA-B72B-C8B99121549A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{333150F9-DF2F-41AA-B72B-C8B99121549A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00F87DC6-C93D-46B8-B40D-A78FB5AF87AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F87DC6-C93D-46B8-B40D-A78FB5AF87AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F87DC6-C93D-46B8-B40D-A78FB5AF87AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F87DC6-C93D-46B8-B40D-A78FB5AF87AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A952E8EF-3DEC-4D1A-AF2D-EBACA2870195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A952E8EF-3DEC-4D1A-AF2D-EBACA2870195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A952E8EF-3DEC-4D1A-AF2D-EBACA2870195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A952E8EF-3DEC-4D1A-AF2D-EBACA2870195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59957821-6DB4-4669-B885-E51829A39BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59957821-6DB4-4669-B885-E51829A39BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59957821-6DB4-4669-B885-E51829A39BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59957821-6DB4-4669-B885-E51829A39BA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D77BC3F-5F90-4004-9311-365BFBE56D26}
+	EndGlobalSection
+EndGlobal
