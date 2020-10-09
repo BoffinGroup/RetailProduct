@@ -10,10 +10,14 @@ namespace Entities.Models
     {
         [Key]
         public int Id { get; set; }
+        [Required]
         public DateTime PurchaseDate { get; set; }
+        [Required]
         public int Quantity { get; set; }
+        [Required]
 
         public decimal UnitCost { get; set; }
+        [Required]
         public int SupplierID { get; set; }
 
         [ForeignKey(nameof(Stock))]

@@ -1,0 +1,5 @@
+Retail Product  Solution consist of six projects/Library
+
+
+1. SingleSignServer : This is IdentityServer4 project for Single Sign-on
+2. StockManagement: This contains endpoints for Stock control

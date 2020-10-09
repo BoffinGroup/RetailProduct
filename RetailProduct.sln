@@ -3,21 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockManagement", "StockManagement\StockManagement.csproj", "{F57DF96A-238A-407F-8643-0A936433E78A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockManagement", "StockManagement\StockManagement.csproj", "{F57DF96A-238A-407F-8643-0A936433E78A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleSignServer", "SingleSignServer\SingleSignServer.csproj", "{53A953A9-BEF8-45EC-88C5-B528DA5D9F75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleSignServer", "SingleSignServer\SingleSignServer.csproj", "{53A953A9-BEF8-45EC-88C5-B528DA5D9F75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{333150F9-DF2F-41AA-B72B-C8B99121549A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "Contracts\Contracts.csproj", "{333150F9-DF2F-41AA-B72B-C8B99121549A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "LoggerService\LoggerService.csproj", "{00F87DC6-C93D-46B8-B40D-A78FB5AF87AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerService", "LoggerService\LoggerService.csproj", "{00F87DC6-C93D-46B8-B40D-A78FB5AF87AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{A952E8EF-3DEC-4D1A-AF2D-EBACA2870195}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{A952E8EF-3DEC-4D1A-AF2D-EBACA2870195}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{59957821-6DB4-4669-B885-E51829A39BA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{59957821-6DB4-4669-B885-E51829A39BA4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{188CA268-E093-443A-95B2-AB1EBBBC6CAA}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		Project Description.txt = Project Description.txt
 	EndProjectSection
 EndProject
 Global

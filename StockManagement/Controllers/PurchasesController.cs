@@ -11,5 +11,6 @@ namespace StockManagement.Controllers
     [ApiController]
     public class PurchasesController : ControllerBase
     {
+        //purchase history to be added
     }
 }
