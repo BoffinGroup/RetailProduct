@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace Entities.Models
+namespace Entities.DTOs
 {
-    public class Purchase
+    public class PurchaseCreateDTO
     {
-        [Key]
+       
         public int Id { get; set; }
         [Required]
         public DateTime PurchaseDate { get; set; }
@@ -18,13 +17,11 @@ namespace Entities.Models
 
         public decimal UnitCost { get; set; }
         [Required]
-        [ForeignKey(nameof(Supplier))]
-        public int SupplierId { get; set; }
+        public int SupplierID { get; set; }
 
-        [ForeignKey(nameof(Stock))]
+        [Required]
         public int StockId { get; set; }
-        public  Stock Stock { get; set; }
-
+     
 
     }
 }

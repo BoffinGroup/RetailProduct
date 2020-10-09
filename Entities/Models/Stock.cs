@@ -28,7 +28,7 @@ namespace Entities.Models
 
         public int Quantity { get; set; }
 
-        [ForeignKey(nameof(Product))]
+        [ForeignKey(nameof(Supplier))]
         public int SupplierID { get; set; }
 
         public  string BarCode{ get; set; }

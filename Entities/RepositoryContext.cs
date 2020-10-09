@@ -13,6 +13,13 @@ namespace Entities
 
         }
 
+        public DbSet<ProductCategory> ProductCategories { get; set; }
+        public DbSet<Product> Products { get; set; }
         public DbSet<Stock> Stocks { get; set;}
+        public DbSet<StockOut> StockOuts { get; set; }
+        public DbSet<Supplier> Suppliers { get; set; }
+        public DbSet<Purchase> Purchases { get; set; }
+
+       
     }
 }

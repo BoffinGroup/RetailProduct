@@ -2,4 +2,40 @@ Retail Product  Solution consist of six projects/Library
 
 
 1. SingleSignServer : This is IdentityServer4 project for Single Sign-on
-2. StockManagement: This contains endpoints for Stock control
+
+2. StockManagement: This is web api project 
+
+3. Entities: This Class Library for Models and Data Transfer Objects
+
+4. Repository : This the Class Library for Inferfaces implementation
+
+5. Contracts : This is Class Library for All the Interfaces 
+
+6. LoggerService: This is a Class Library tha handles Logging
+
+
+
+
+
+Project Consideration
+
+1. Seperation of concern
+2. Scalability
+3. Decoupling 
+
+
+
+Shortcomings
+
+1. More microservices endpoints can can be added
+
+2. Relational Database(Sql Server) should be used for IdentityServer4 Single Sign-on
+
+3. Unit testing should be implemented
+
+4. Database can be imlemented
+
+5. Database Structure can improve
+
+
+

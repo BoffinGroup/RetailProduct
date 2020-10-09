@@ -12,8 +12,12 @@ namespace StockManagement.Profiles
     {
         public MappingProfile()
         {
+            //All the mappings will be done here
             CreateMap<Stock, StockReadDTO>();
             CreateMap<StockCreateDTO, Stock>();
+            CreateMap<Purchase, PurchaseReadDTO>();
+
+
         }
     }
 }
